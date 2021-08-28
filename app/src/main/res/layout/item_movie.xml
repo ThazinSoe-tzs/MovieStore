@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    app:cardBackgroundColor="@android:color/white"
+    android:layout_margin="10dp"
+    app:cardElevation="8dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:id="@+id/iv_poster"
+            android:scaleType="fitXY"
+            android:src="@android:drawable/ic_menu_upload" />
+
+        <Button
+            android:id="@+id/btn_favourite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="@string/add_to_favourite"
+            android:textColor="@color/purple_700"
+            android:background="@color/gray_trans"
+            android:src="@android:drawable/star_big_off"
+            android:layout_gravity="bottom" />
+
+        <TextView
+            android:id="@+id/tv_movie_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:visibility="gone"
+            android:padding="8dp"
+            android:layout_gravity="bottom"
+            android:background="@color/gray_trans"
+            android:text="@{movie.title}"
+            android:textColor="@color/purple_700" />
+    </FrameLayout>
+
+</androidx.cardview.widget.CardView>

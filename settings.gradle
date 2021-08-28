@@ -1,0 +1,2 @@
+rootProject.name = "MovieStore"
+include ':app'

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MovieStore</string>
+    <string name="tab_text_upcoming">Upcoming</string>
+    <string name="tab_text_popular">Popular</string>
+    <string name="tab_text_favourite">Favourite</string>
+
+    <string name="rating">Rating: %s</string>
+    <string name="favourite_movies">Favourite Movies</string>
+    <string name="upcoming_movies">Latest Movies</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="add_to_favourite">Add to favourite</string>
+    <string name="favourite_success">Added to favourite List</string>
+
+
+</resources>
